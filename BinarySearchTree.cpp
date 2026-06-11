@@ -13,15 +13,15 @@ public:
     {
         info = i;
         leftchild = l;
-        rightchild = r;}
+        rightchild = r;
+    }
 };
 
 class BinaryTree {
 public:
     Node* ROOT;
 
-    BinaryTree() 
-    {
+    BinaryTree() {
         ROOT = NULL; //initially set ROOT to null
     }
 
