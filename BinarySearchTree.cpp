@@ -106,7 +106,8 @@ public:
             }
         }
 
-        void postorder(Node* ptr) {
+        void postorder(Node* ptr) 
+        {
             //performs postorder traversal of the tree
             if (ROOT == NULL) 
             {
@@ -123,8 +124,7 @@ public:
         }
     };
 
-int main()
-{
+int main(){
     BinaryTree obj;
     
     while (true) 
