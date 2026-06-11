@@ -50,7 +50,8 @@ public:
         {
             parent->leftchild = newNode; 
         }
-        else if (element > parent->info) {
+        else if (element > parent->info) 
+        {
             parent->rightchild = newNode; 
         }
     }
@@ -62,8 +63,7 @@ public:
         currentNode = ROOT;
         parent = NULL;
 
-        while ((currentNode != NULL) && (currentNode->info != element))
-        {
+        while ((currentNode != NULL) && (currentNode->info != element)){
             parent = currentNode;
 
             if (element < currentNode->info) 
