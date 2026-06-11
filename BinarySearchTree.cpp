@@ -63,7 +63,8 @@ public:
         currentNode = ROOT;
         parent = NULL;
 
-        while ((currentNode != NULL) && (currentNode->info != element)){
+        while ((currentNode != NULL) && (currentNode->info != element))
+        {
             parent = currentNode;
 
             if (element < currentNode->info) 
@@ -73,8 +74,7 @@ public:
             }
         }
 
-        void inorder(Node* ptr) 
-        {
+        void inorder(Node* ptr) {
             if (ROOT == NULL) 
             {
                 cout << "Tree is empty" << endl;
