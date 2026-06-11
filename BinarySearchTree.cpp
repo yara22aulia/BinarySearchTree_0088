@@ -21,7 +21,8 @@ class BinaryTree {
 public:
     Node* ROOT;
 
-    BinaryTree() {
+    BinaryTree() 
+    {
         ROOT = NULL; //initially set ROOT to null
     }
 
