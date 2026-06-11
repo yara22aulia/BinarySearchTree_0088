@@ -46,8 +46,7 @@ public:
             return;
         }
 
-        if (element < parent->info) 
-        {
+        if (element < parent->info) {
             parent->leftchild = newNode; 
         }
         else if (element > parent->info) 
